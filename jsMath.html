@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Math</title>
+</head>
+<body>
+<script type="text/javascript">
+
+//
+function zero_negativity(myArray){
+
+for(var i = 0; i < myArray.length; i++) {
+
+if(myArray[i] < 0){
+return false;
+}
+	
+}return true;
+}
+zero_negativity([1,2,3,4,5,7,-1,-5]);
+
+
+
+//
+function is_even(number){
+	if(number %2 == 0){
+		return true;
+	}else{
+		return false;
+
+	}
+	
+}
+
+//
+function how_many_even(array){
+	for(let i =0; i<array.length; i++){
+		let count = 0;
+		if(array[i] %2 === 0){
+			return true;
+			count++;
+
+		}
+	}
+	return count;
+}
+
+
+//
+function create_dummy_array(n){
+	let y = [];
+	for(i=0; i < n.length; i++){
+		y.push(Math.floor(Math.random() * 10));
+	
+	}
+	return y;
+}
+
+//
+
+function random_choice(array){
+
+
+	for(i =0; i < array.length; i++){
+		if(array){
+			return array "exists";
+		}
+	
+	}
+return  array[i] * Math.random();
+}
+
+
+</script>
+</body>
+</html>
